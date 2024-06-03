@@ -6,6 +6,7 @@ public class MobileContactMain {
         MobileContact alice = new MobileContact("Alice", "W.", "6999999999");
         alice.insertContact();
 
+        
         MobileContact mobileContact = alice.getContactByPhoneNumber();
         System.out.println(mobileContact.contactToString());
     }
