@@ -25,9 +25,13 @@ public class Point {
 
     //API
     public void movePlus10() {
-        x += 10;
-    }
+//        x += 10;
 
+        //self-use
+        for (int i = 1; i <= 10; i++) {
+            movePlusOne();
+        }
+    }
     public void movePlusOne() {
         x++;
     }
